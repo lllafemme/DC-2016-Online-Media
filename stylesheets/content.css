@@ -2,15 +2,12 @@ article a{
    text-decoration: underline;
 }
 
-article h1,
-article h2,
-article h3,
-article p,
-article ul,
-article blockquote {
-  width: 700px;
-  margin: 0 auto;
-}
+
+  article > *:not(section) {
+    width: 728px;
+    margin: 0 auto;
+    }
+
 
 
 article h2,
@@ -20,7 +17,7 @@ article h3 {
 }
 
 article h1 {
-  margin-top: 66px;
+  margin-top: 16px;
   font-size: 40px;
   line-height: 46px;
 }
@@ -81,7 +78,7 @@ article p + p,
 article p + blockquote,
 article blockquote + p,
 article blockquote + blockquote {
-article margin-top: 29px;
+ margin-top: 29px;
  }
 
 article ul {
